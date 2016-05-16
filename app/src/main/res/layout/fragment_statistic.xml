@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_job"
+                style="@style/StatisticItem"
+                android:layout_marginTop="20dp"
+                android:text="职业: 鬼剑士" />
+            <TextView
+                android:id="@+id/tv_lv"
+                style="@style/StatisticItem"
+                android:text="LV: 1" />
+
+
+            <TextView
+                android:id="@+id/tv_hp"
+                style="@style/StatisticItem"
+                android:text="HP: 10000/10000" />
+
+            <TextView
+                android:id="@+id/tv_mp"
+                style="@style/StatisticItem"
+                android:text="MP: 100/100" />
+
+            <TextView
+                android:id="@+id/tv_str"
+                style="@style/StatisticItem"
+                android:text="力量: 200" />
+
+            <TextView
+                android:id="@+id/tv_int"
+                style="@style/StatisticItem"
+                android:text="智力: -200" />
+
+            <TextView
+                android:id="@+id/tv_con"
+                style="@style/StatisticItem"
+                android:text="体力: 200" />
+
+            <TextView
+                android:id="@+id/tv_spr"
+                style="@style/StatisticItem"
+                android:text="精神: 200" />
+
+            <TextView
+                android:id="@+id/tv_patk"
+                style="@style/StatisticItem"
+                android:text="物理攻击: 1000" />
+
+            <TextView
+                android:id="@+id/tv_matk"
+                style="@style/StatisticItem"
+                android:text="魔法攻击: 0" />
+
+            <TextView
+                android:id="@+id/tv_watk"
+                style="@style/StatisticItem"
+                android:text="独立攻击: 200" />
+
+            <TextView
+                android:id="@+id/tv_pdef"
+                style="@style/StatisticItem"
+                android:text="物理防御: 2000" />
+
+            <TextView
+                android:id="@+id/tv_mdef"
+                style="@style/StatisticItem"
+                android:text="魔法防御: 2000" />
+
+            <TextView
+                android:id="@+id/tv_hit"
+                style="@style/StatisticItem"
+                android:text="命中率: +0%" />
+
+            <TextView
+                android:id="@+id/tv_mis"
+                style="@style/StatisticItem"
+                android:text="回避率: 0%" />
+
+            <TextView
+                android:id="@+id/tv_pcri"
+                style="@style/StatisticItem"
+                android:text="物理暴击率: 0%" />
+
+            <TextView
+                android:id="@+id/tv_mcriatk"
+                style="@style/StatisticItem"
+                android:text="魔法暴击率: +0" />
+
+            <TextView
+                android:id="@+id/tv_pcriatk"
+                style="@style/StatisticItem"
+                android:text="物理暴击攻击力: +150%" />
+
+            <TextView
+                android:id="@+id/tv_mcri"
+                style="@style/StatisticItem"
+                android:text="魔法暴击攻击力: +150%" />
+
+            <TextView
+                android:id="@+id/tv_hprcv"
+                style="@style/StatisticItem"
+                android:text="HP恢复: +30" />
+
+            <TextView
+                android:id="@+id/tv_mprcv"
+                style="@style/StatisticItem"
+                android:text="MP恢复: +30" />
+
+            <TextView
+                android:id="@+id/tv_fire_atk"
+                style="@style/StatisticItem"
+                android:text="火属性强化: 0" />
+            <TextView
+                android:id="@+id/tv_water_atk"
+                style="@style/StatisticItem"
+                android:text="冰属性强化: 0" />
+            <TextView
+                android:id="@+id/tv_light_atk"
+                style="@style/StatisticItem"
+                android:text="光属性强化: 0" />
+            <TextView
+                android:id="@+id/tv_dark_atk"
+                style="@style/StatisticItem"
+                android:text="暗属性强化: 0" />
+
+            <TextView
+                android:id="@+id/tv_fire_def"
+                style="@style/StatisticItem"
+                android:text="火属性抗性: 0" />
+            <TextView
+                android:id="@+id/tv_water_def"
+                style="@style/StatisticItem"
+                android:text="冰属性抗性: 0" />
+            <TextView
+                android:id="@+id/tv_light_def"
+                style="@style/StatisticItem"
+                android:text="光属性抗性: 0" />
+            <TextView
+                android:id="@+id/tv_dark_def"
+                style="@style/StatisticItem"
+                android:text="暗属性抗性: 0" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

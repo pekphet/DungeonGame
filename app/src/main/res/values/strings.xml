@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleGame</string>
+    <string name="left">&lt;</string>
+    <string name="right">&gt;</string>
+
+
+</resources>
