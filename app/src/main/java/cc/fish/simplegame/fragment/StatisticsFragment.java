@@ -41,6 +41,7 @@ public class StatisticsFragment extends BaseFragment {
     private TextView tvWaterDef;
     private TextView tvLightDef;
     private TextView tvDarkDef;
+    private TextView tvExp;
 
     @Override
     protected View initView(LayoutInflater inflater) {
@@ -52,6 +53,7 @@ public class StatisticsFragment extends BaseFragment {
     private void initCreate(View v) {
         tvJob = (TextView) v.findViewById(R.id.tv_job);
         tvLv = (TextView) v.findViewById(R.id.tv_lv);
+        tvExp = (TextView) v.findViewById(R.id.tv_exp);
         tvHP = (TextView) v.findViewById(R.id.tv_hp);
         tvMP = (TextView) v.findViewById(R.id.tv_mp);
         tvStr = (TextView) v.findViewById(R.id.tv_str);

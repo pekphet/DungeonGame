@@ -21,10 +21,16 @@
                 style="@style/StatisticItem"
                 android:layout_marginTop="20dp"
                 android:text="职业: 鬼剑士" />
+
             <TextView
                 android:id="@+id/tv_lv"
                 style="@style/StatisticItem"
                 android:text="LV: 1" />
+
+            <TextView
+                android:id="@+id/tv_exp"
+                style="@style/StatisticItem"
+                android:text="exp:0/100" />
 
 
             <TextView
@@ -126,14 +132,17 @@
                 android:id="@+id/tv_fire_atk"
                 style="@style/StatisticItem"
                 android:text="火属性强化: 0" />
+
             <TextView
                 android:id="@+id/tv_water_atk"
                 style="@style/StatisticItem"
                 android:text="冰属性强化: 0" />
+
             <TextView
                 android:id="@+id/tv_light_atk"
                 style="@style/StatisticItem"
                 android:text="光属性强化: 0" />
+
             <TextView
                 android:id="@+id/tv_dark_atk"
                 style="@style/StatisticItem"
@@ -143,19 +152,21 @@
                 android:id="@+id/tv_fire_def"
                 style="@style/StatisticItem"
                 android:text="火属性抗性: 0" />
+
             <TextView
                 android:id="@+id/tv_water_def"
                 style="@style/StatisticItem"
                 android:text="冰属性抗性: 0" />
+
             <TextView
                 android:id="@+id/tv_light_def"
                 style="@style/StatisticItem"
                 android:text="光属性抗性: 0" />
+
             <TextView
                 android:id="@+id/tv_dark_def"
                 style="@style/StatisticItem"
                 android:text="暗属性抗性: 0" />
-
 
 
         </LinearLayout>
